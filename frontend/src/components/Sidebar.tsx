@@ -8,7 +8,7 @@ import { sideBarState } from "../store/atom";
 
 
 const sidebarBtnData = [
-    {path:"/app", title:"Dashboard",icon:<HomeIcon/>},
+    {path:"/", title:"Dashboard",icon:<HomeIcon/>},
     {path:"new-order", title:"New Order",icon:<OrderIcon/>},
     {path:"pending-list", title:"Pending Orders",icon:<PendingIcon/>},
     {path:"completed-list", title:"Completed Orders",icon:<PendingIcon/>}

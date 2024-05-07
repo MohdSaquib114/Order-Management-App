@@ -5,6 +5,7 @@ import NewOrder from "./components/NewOrder"
 import PendingList from "./components/PendingList"
 import CompletedOrders from "./components/CompletedOrders"
 import { RecoilRoot } from "recoil"
+import BillComponent from "./components/BillComponent"
 
 export default function App() {
   return <RecoilRoot>
@@ -16,6 +17,7 @@ export default function App() {
                   <Route path="new-order" element={<NewOrder/>} />
                   <Route path="pending-list" element={<PendingList/>} />
                   <Route path="completed-list" element={<CompletedOrders/>} />
+                  <Route path="order-bill" element={<BillComponent/>} />
               </Route>
             </Routes>
          </BrowserRouter>
