@@ -25,7 +25,7 @@ console.log(link.download)
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
-      window.open("/")
+     
     } else {
       window.open(data);
     }

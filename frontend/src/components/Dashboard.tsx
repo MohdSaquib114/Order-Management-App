@@ -32,7 +32,7 @@ export default function Dashboard() {
          <Card title="Number of Pending Orders" icon={<PendingIcon/>} value="10 Pending Orders" />
        </div>
        </div>
-       <Chart />
+      
       </div>
     </Layout>
    
